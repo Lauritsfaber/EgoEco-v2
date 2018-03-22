@@ -39,7 +39,7 @@ body {
 .logo img {
 
 
-    width: 30%;
+    width:50%;
 }
 
 
@@ -335,9 +335,9 @@ nav {
     display: flex;
     justify-content: center;
 
+padding: 50PX 100PX;
 
-
-    padding: 50px 0px;
+     background-color: #f8f2dc;
 
 }
 
@@ -346,16 +346,17 @@ nav {
 
     text-align: center;
 
-    border: solid white 60px;
 
 
+}
 
-        border-image: url(kakaob%C3%B8nne.jpg);
-
-
-
+.youtube_item h2 {
 
 
+    font-family: 'shadows into light';
+   color: black;
+
+    font-size: 3em;
 
 
 }
@@ -366,8 +367,9 @@ nav {
 
 
 
-    box-shadow: 10px 1px 80px rgba(0, 0, 0, 0.51);
-    max-width: 800px;
+
+    width: 800px;
+    border-radius: 3PX;
 }
 
 
