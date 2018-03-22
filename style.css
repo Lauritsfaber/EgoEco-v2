@@ -35,16 +35,12 @@ body {
 
 .logo img {
 
+
     width: 20%;
 }
 
 
 /*nav bar*/
-
-* {
-    box-sizing: border-box;
-}
-
 
 
 nav {
@@ -198,40 +194,64 @@ nav {
 
 /*Marck om sektion*/
 
-.om{
+
+.wrapper_om_con{
 
 
-}
-
-
-
-
-
-
-
-#om .sectionwrapper_con{
     display: flex;
     justify-content: center;
-    background-color: white;
+
+    flex-wrap: wrap;
+
+    width: 100%;
+
+    background-color: rgba(42, 85, 88, 0.87);
+
 
 }
 
 
 .left_item{
+    padding: 20px;
 
-    flex-basis: 540px;
+    flex-grow: 8;
+    border: red solid 1px;
 
+    flex-basis: 200px;
+
+
+
+}
+
+.left_item p{
+
+    text-align: center;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+
+}
+
+.left_item h2{
+       text-align: center;
+
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .right_item{
 
-    flex-basis: 540px;
+    flex-grow: 1;
+     flex-basis: 200px;
 
 }
 
 .right_item img{
-    width: 500px;
+
+    max-width: 600px;
 }
+
+
 
 
 
