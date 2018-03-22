@@ -17,7 +17,7 @@ p {
 
 
 body {
-    background-color: rgba(195, 217, 24, 0.45);
+    background-color: rgba(201, 227, 187, 0.4);
     margin: 0;
 }
 
@@ -81,11 +81,11 @@ nav {
 
     background-color: white;
 
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: 'Josefin Sans', sans-serif;
 
     border: none;
-    padding: 10px 15px;
+    padding: 15px 15px;
 
 
 }
@@ -299,6 +299,7 @@ nav {
     text-align: center;
 
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
     font-size: 2em;
 
 }
@@ -327,7 +328,10 @@ nav {
     display: flex;
     justify-content: center;
 
-    background-color: rgba(3, 41, 25, 0.33);
+    background-color: rgba(90, 22, 77, 0.44);
+
+    background-image: url(bark2.png);
+
     padding: 50px 0px;
 
 }
@@ -337,16 +341,22 @@ nav {
 
     text-align: center;
 
+    border: solid white 2px;
+
+    box-shadow: 10px 10px 80px black;
+
+
+
 
 
 }
 
 
 
-iframe {
+.youtube_item iframe {
 
-    border-radius: 20px;
-    border: solid rgba(255, 1, 1, 0.35) 10px;
+
+
     box-shadow: 10px 1px 80px rgba(0, 0, 0, 0.51);
     max-width: 800px;
 }
@@ -357,10 +367,17 @@ iframe {
 .maps_con {
 
     display: flex;
+    justify-content: center;
+
+
+
 }
 
-.maops_item {
-    text-align: center;
+.maps_item {
+    width: 100%;
+    border: solid #ffffff 5px;
+
+
 }
 
 /*FOOTER*/
@@ -609,7 +626,13 @@ p.adam {
     color: #2e99ff;
 }
 
+/*3 pics*/
 
+#tre_billeder .sectionwrapper_con{
+
+    padding-top: 40px;
+
+}
 
 #tre_billeder .top_image_item img {
 
@@ -618,6 +641,8 @@ p.adam {
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    border-radius: 3px;
 
 
 }
@@ -630,6 +655,8 @@ p.adam {
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    border-radius: 3px;
 }
 
 #tre_billeder .top_image_item:hover .overlay {
