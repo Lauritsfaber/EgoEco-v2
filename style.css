@@ -256,8 +256,9 @@ nav {
     font-size: 3em;
 }
 .youtube_item iframe {
-    width: 100%;
+
     border-radius: 3PX;
+
 }
 
 /*Maps*/
