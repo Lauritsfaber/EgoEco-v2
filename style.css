@@ -15,7 +15,6 @@ p {
 }
 
 
-
 body {
     background-color: white;
     margin: 0;
@@ -32,27 +31,18 @@ body {
     background-image: url(natnat.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
-
 }
 
 .logo img {
-
-
     width:50%;
 }
-
 
 /*nav bar*/
 
 nav {
     background-color: #e8f4e5;
     margin: 0px;
-
 }
-
-
-
 
 .nav_con {
 
@@ -67,9 +57,6 @@ nav {
     display: flex;
     flex-direction:row;
     flex-basis: 100px;
-
-
-
 }
 
 .dropdown_item {}
@@ -81,60 +68,39 @@ nav {
 
 
 .dropbtn {
-
- background-color: #e8f4e5;
-
+    background-color: #e8f4e5;
     font-size: 1.2em;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
-
-
     border: none;
     padding: 15px 15px;
-
-
-
 }
 
 .dropdown_content {
-
     background-color: #e8f4e5;
-
     display: none;
     position: absolute;
     z-index: 1;
-
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
-
     width: 150px;
     border-radius: 0px 0px 2px 2px;
-
-
 }
 
 .dropdown_content a {
-
     color: black;
     text-decoration: none;
     text-align: left;
     float: left;
-
     overflow: hidden;
     display: black;
-
-
     padding: 10px 10px;
     width: 100%;
-
-
 }
 
 .dropdown_content a:hover {
     background-color: black;
     color: white;
-
-
 }
 
 /*Billede Bokse info*/
@@ -142,63 +108,43 @@ nav {
 .boks_wrapper_con img {
     max-width: 300px;
     max-height: 300px;
-
     border-radius: 2%;
-
-
 }
 
 .boks_wrapper_con img:hover {
-
     border-radius: 80%;
     opacity: 0.5;
-
     transition: 1s;
-
-
 }
 
 .boks_wrapper_con {
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 50px 0px;
-
     background-color: rgba(129, 103, 18, 0.58);
-
-
-
 }
 
 .boks_wrapper_item {
-
     flex-basis: 100px;
-
     padding: 10px 15px;
     border-radius: 2%;
     box-shadow: 5px 5px 30px rgba(13, 0, 0, 0.57);
-
     background-color: rgba(11, 77, 55, 0.24);
 }
 
 .boks_wrapper_item h2 {
-
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
     font-size: 1vw;
     padding: 1px;
-
     color: white;
 }
 
-
 .boks_wrapper_item:hover {
     background-color: rgba(234, 125, 32, 0.84);
-
-
 }
 
 /*Marck. åbningstider*/
@@ -214,24 +160,16 @@ nav {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2em;
-
-
 }
 
 /*Marck om sektion*/
 
 .wrapper_om_con {
-
-
     display: flex;
     justify-content: center;
-
     flex-wrap: wrap;
-
     width: 100%;
     background-color: rgba(42, 85, 88, 0.87);
-
-
 }
 
 
@@ -239,156 +177,95 @@ nav {
     padding: 20px;
     flex-grow: 8;
     flex-basis: 200px;
-
 }
 
 .left_item p {
-
     text-align: left;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
-
 }
 
 .left_item h2 {
     text-align: center;
-
     font-size: 2em;
-
     font-family: 'Open Sans', sans-serif;
 }
 
 .right_item {
-
     flex-grow: 1;
     flex-basis: 200px;
-
 }
 
 .right_item img {
-
     max-width: 600px;
 }
 
 /*CITAT*/
 
 .wrapper_citat_con {
-
-
     display: flex;
     justify-content: center;
-
     flex-wrap: wrap;
     flex-direction: row-reverse;
-
     width: 100%;
     background-color: rgba(43, 90, 19, 0.33);
-
-
 }
-
 
 .citat_left_item {
     padding: 20px;
-
     flex-grow: 8;
-
     flex-basis: 200px;
-
     margin-top: 60px;
-
-
-
 }
 
 .citat_left_item p {
-
     text-align: center;
-
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 2em;
-
 }
 
-
-
 .citat_right_item {
-
     flex-grow: 1;
     flex-basis: 200px;
-
 }
 
 .citat_right_item img {
-
     max-width: 600px;
 }
-
-
-
 
 /*youtube*/
 
 .youtube_con {
-
     display: flex;
     justify-content: center;
-
-padding: 50PX 100PX;
-
-     background-color: #f8f2dc;
-
+    padding: 50PX 100PX;
+    background-color: #f8f2dc;
 }
 
-
 .youtube_item {
-
     text-align: center;
-
-
-
 }
 
 .youtube_item h2 {
-
-
     font-family: 'shadows into light';
-   color: black;
-
+    color: black;
     font-size: 3em;
-
-
 }
-
-
-
 .youtube_item iframe {
-
-
-
-
     width: 800px;
     border-radius: 3PX;
 }
 
-
-
 /*Maps*/
 .maps_con {
-
     display: flex;
     justify-content: center;
-
-
-
 }
 
 .maps_item {
     width: 100%;
     border: solid #ffffff 5px;
-
-
 }
 
 /*FOOTER*/
@@ -408,7 +285,6 @@ blockquote,
 q {
     quotes: none;
 }
-
 
 #footer_wrapper a {
     text-decoration: none;
@@ -642,34 +518,25 @@ p.adam {
 #tre_billeder .sectionwrapper_con{
 
     padding-top: 40px;
-
-
-
 }
 
 #tre_billeder .top_image_item img {
-
     width: 400px;
     height: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-
     border-radius: 3px;
     box-shadow: 2px 2px 5px grey;
-
-
 }
 
 #tre_billeder .container {
-
     position: relative;
     width: 400px;
     height: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-
     border-radius: 3px;
 }
 
@@ -677,43 +544,32 @@ p.adam {
     opacity: 1;
 }
 
-
 #tre_billeder .sectionwrapper_con {
-
     display: flex;
     flex-wrap: wrap;
-
-
 }
 
 #tre_billeder .column_item {
-
     flex-grow: 1;
     flex-basis: 400px;
     justify-content: space-between;
     margin: 20px;
     padding: 5px;
-
-
 }
 
 #tre_billeder .column_content_con {
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-
 }
 
 
 #tre_billeder h4 {
-
     font-family: 'Shadows Into Light';
     font-size: 1.9em;
     margin: 5px;
     text-align: center;
-
 }
 
 #tre_billeder .overlay {
@@ -746,6 +602,3 @@ p.adam {
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
-
-
-
