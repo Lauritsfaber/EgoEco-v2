@@ -34,7 +34,13 @@ body {
 }
 
 .logo img {
+<<<<<<< HEAD
     width:50%;
+=======
+
+
+    width:30%;
+>>>>>>> origin/master
 }
 
 /*nav bar*/
