@@ -305,13 +305,18 @@ iframe {
     border-radius: 20px;
     border: solid rgba(255, 1, 1, 0.35) 10px;
     box-shadow: 10px 1px 80px rgba(0, 0, 0, 0.51);
-
     max-width: 800px;
-
-
 }
 
 
+
+.maps_con {
+
+    display: flex;
+}
+.maops_item {
+    text-align: center;
+}
 
 /*FOOTER*/
 
