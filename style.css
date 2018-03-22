@@ -65,7 +65,10 @@ nav {
 
 .dropdown_con {
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
+    flex-basis: 100px;
+
+
 
 }
 
@@ -79,7 +82,7 @@ nav {
 
 .dropbtn {
 
-     background-color: #e8f4e5;
+ background-color: #e8f4e5;
 
     font-size: 1.2em;
     font-family: 'Poppins', sans-serif;
@@ -333,7 +336,6 @@ nav {
 
 
 
-
     padding: 50px 0px;
 
 }
@@ -343,9 +345,13 @@ nav {
 
     text-align: center;
 
-    border: solid white 2px;
+    border: solid white 60px;
 
-    box-shadow: 10px 10px 80px black;
+
+
+        border-image: url(kakaob%C3%B8nne.jpg);
+
+
 
 
 
