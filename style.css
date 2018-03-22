@@ -242,7 +242,7 @@ nav {
 
 .left_item p {
 
-    text-align: center;
+    text-align: left;
 
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
@@ -269,6 +269,59 @@ nav {
     max-width: 600px;
 }
 
+/*CITAT*/
+
+.wrapper_citat_con {
+
+
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+    width: 100%;
+    background-color: rgba(43, 90, 19, 0.33);
+
+
+}
+
+
+.citat_left_item {
+    padding: 20px;
+
+    flex-grow: 8;
+
+    flex-basis: 200px;
+
+    margin-top: 60px;
+
+
+
+}
+
+.citat_left_item p {
+
+    text-align: center;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+
+}
+
+
+
+.citat_right_item {
+
+    flex-grow: 1;
+    flex-basis: 200px;
+
+}
+
+.citat_right_item img {
+
+    max-width: 600px;
+}
 
 
 
@@ -282,8 +335,6 @@ nav {
 
     background-color: rgba(3, 41, 25, 0.33);
     padding: 50px 0px;
-
-
 
 }
 
@@ -308,6 +359,7 @@ iframe {
 
 
 
+/*Maps*/
 .maps_con {
 
     display: flex;
@@ -661,49 +713,4 @@ p.adam {
 }
 
 
-#billede_citat .sectionwrapper {
 
-    display: flex;
-    flex-direction: row;
-    background-color: palegreen;
-
-
-
-
-
-
-}
-
-#billede_citat .image_item {
-
-
-    flex-basis 600px;
-    flex-grow: 1;
-
-
-
-}
-
-#billede_citat .citat_item {
-
-
-    flex-basis 400px;
-    margin-top: 70px;
-    padding-left: 15px;
-    flex-grow: 1;
-
-}
-
-#billede_citat img {
-
-    max-width: 500px;
-    max-height: 500px;
-    padding-left: 10px
-}
-
-
-#billede_citat p {
-
-    font-size: 3em;
-
-}
