@@ -225,7 +225,6 @@ nav {
     flex-wrap: wrap;
 
     width: 100%;
-
     background-color: rgba(42, 85, 88, 0.87);
 
 
@@ -256,6 +255,7 @@ nav {
        text-align: center;
 
     font-size: 2em;
+
     font-family: 'Open Sans', sans-serif;
 }
 
