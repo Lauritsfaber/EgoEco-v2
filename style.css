@@ -170,7 +170,6 @@ nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
     background-color: rgba(42, 85, 88, 0.87);
 }
 
@@ -178,7 +177,7 @@ nav {
 .left_item {
     padding: 20px;
     flex-grow: 8;
-    flex-basis: 200px;
+    flex-basis: 500px;
 }
 
 .left_item p {
@@ -195,11 +194,11 @@ nav {
 
 .right_item {
     flex-grow: 1;
-    flex-basis: 200px;
+    flex-basis: 500px;
 }
 
 .right_item img {
-    max-width: 600px;
+    width:  100%
 }
 
 /*CITAT*/
@@ -229,11 +228,11 @@ nav {
 
 .citat_right_item {
     flex-grow: 1;
-    flex-basis: 200px;
+    flex-basis: 500px;
 }
 
 .citat_right_item img {
-    max-width: 600px;
+    max-width: 100%;
 }
 
 /*youtube*/
@@ -241,7 +240,7 @@ nav {
 .youtube_con {
     display: flex;
     justify-content: center;
-    padding: 50PX 100PX;
+    padding: 10px 0px 50px 0px;
     background-color: #f8f2dc;
 }
 
@@ -257,7 +256,7 @@ nav {
     font-size: 3em;
 }
 .youtube_item iframe {
-    width: 800px;
+    width: 100%;
     border-radius: 3PX;
 }
 
