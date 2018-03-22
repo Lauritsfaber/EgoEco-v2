@@ -2,13 +2,16 @@ h4 {
     padding: 10px;
     font-size: 1.5em;
     font-family: 'Open Sans', sans-serif;
+}
 
-
+h2 {
+    color: antiquewhite;
 }
 
 p {
     padding: 10px;
     font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
 }
 
 
@@ -208,10 +211,6 @@ nav {
 
 }
 
-
-
-
-
 /*Marck om sektion*/
 
 .wrapper_om_con {
@@ -231,19 +230,14 @@ nav {
 
 .left_item {
     padding: 20px;
-
     flex-grow: 8;
-
     flex-basis: 200px;
-
-
 
 }
 
 .left_item p {
 
     text-align: left;
-
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
 
