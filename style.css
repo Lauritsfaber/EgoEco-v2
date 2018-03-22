@@ -196,6 +196,43 @@ nav {
 
 }
 
+/*Marck om sektion*/
+
+.om{
+
+
+}
+
+
+
+
+
+
+
+#om .sectionwrapper_con{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+}
+
+
+.left_item{
+
+    flex-basis: 540px;
+
+}
+
+.right_item{
+
+    flex-basis: 540px;
+
+}
+
+.right_item img{
+    width: 500px;
+}
+
 
 
 /*youtube*/
@@ -578,3 +615,4 @@ p.adam {
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
+
