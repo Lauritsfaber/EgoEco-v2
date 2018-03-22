@@ -1,0 +1,50 @@
+.wrapper {
+	width: 68em;
+}
+
+h1 {
+    font-family: 'shadows into light';
+    font-size: 3em;
+}
+
+.produkt {
+    width: 150px;
+    height: 200px;
+
+}
+
+// Start here
+
+$title-color: #222;
+$font-color: #777;
+$light-gray: #eee;
+$primary: #e91e63;
+$secondary: #42a5f5;
+
+// product
+$product-box-shadow: 0px 0px 0px 1px $light-gray;
+
+* {
+	box-sizing: border-box;
+    padding: 50px;
+}
+
+body {
+	color: $font-color;
+	font-family: "Open Sans", Arial, sans-serif;
+}
+
+.product-grid__product {
+    display: flex;
+    padding-bottom: 60px;
+    border: 20px;
+    border-color: red;
+}
+
+
+.product-grid {
+	width: 60em;
+	margin: 1rem auto;
+
+
+
