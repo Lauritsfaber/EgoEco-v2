@@ -34,13 +34,9 @@ body {
 }
 
 .logo img {
-<<<<<<< HEAD
-    width:50%;
-=======
 
 
     width:30%;
->>>>>>> origin/master
 }
 
 /*nav bar*/
@@ -251,6 +247,8 @@ nav {
 
 .youtube_item {
     text-align: center;
+    box-sizing: border-box;
+
 }
 
 .youtube_item h2 {
