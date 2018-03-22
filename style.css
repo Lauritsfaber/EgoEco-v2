@@ -42,7 +42,6 @@ body {
 
 /*nav bar*/
 
-
 nav {
     background-color: white;
     margin: 0px;
@@ -194,16 +193,16 @@ nav {
 
 /*Marck. åbningstider*/
 
-#aabningstider{
+#aabningstider {
     justify-content: center;
 }
 
-.tider{
-    margin:auto;
-    width:50%;
+.tider {
+    margin: auto;
+    width: 50%;
     padding: 10px;
     text-align: center;
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.2em;
 
 
@@ -215,8 +214,7 @@ nav {
 
 /*Marck om sektion*/
 
-
-.wrapper_om_con{
+.wrapper_om_con {
 
 
     display: flex;
@@ -232,7 +230,7 @@ nav {
 }
 
 
-.left_item{
+.left_item {
     padding: 20px;
 
     flex-grow: 8;
@@ -243,7 +241,7 @@ nav {
 
 }
 
-.left_item p{
+.left_item p {
 
     text-align: center;
 
@@ -252,21 +250,21 @@ nav {
 
 }
 
-.left_item h2{
-       text-align: center;
+.left_item h2 {
+    text-align: center;
 
     font-size: 2em;
     font-family: 'Open Sans', sans-serif;
 }
 
-.right_item{
+.right_item {
 
     flex-grow: 1;
-     flex-basis: 200px;
+    flex-basis: 200px;
 
 }
 
-.right_item img{
+.right_item img {
 
     max-width: 600px;
 }
@@ -314,6 +312,7 @@ iframe {
 
     display: flex;
 }
+
 .maops_item {
     text-align: center;
 }
@@ -661,3 +660,50 @@ p.adam {
     text-align: center;
 }
 
+
+#billede_citat .sectionwrapper {
+
+    display: flex;
+    flex-direction: row;
+    background-color: palegreen;
+
+
+
+
+
+
+}
+
+#billede_citat .image_item {
+
+
+    flex-basis 600px;
+    flex-grow: 1;
+
+
+
+}
+
+#billede_citat .citat_item {
+
+
+    flex-basis 400px;
+    margin-top: 70px;
+    padding-left: 15px;
+    flex-grow: 1;
+
+}
+
+#billede_citat img {
+
+    max-width: 500px;
+    max-height: 500px;
+    padding-left: 10px
+}
+
+
+#billede_citat p {
+
+    font-size: 3em;
+
+}
