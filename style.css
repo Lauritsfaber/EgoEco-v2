@@ -196,6 +196,27 @@ nav {
 
 }
 
+/*Marck. åbningstider*/
+
+#aabningstider{
+    justify-content: center;
+}
+
+.tider{
+    margin:auto;
+    width:50%;
+    padding: 10px;
+    text-align: center;
+    font-family:'Open Sans', sans-serif;
+    font-size: 1.2em;
+
+
+}
+
+
+
+
+
 /*Marck om sektion*/
 
 .om{
