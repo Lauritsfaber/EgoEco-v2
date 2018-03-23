@@ -58,7 +58,6 @@ nav {
 .dropdown_con {
     display: flex;
     flex-direction:row;
-    flex-basis: 100px;
 }
 
 .dropdown_item {}
